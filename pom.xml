@@ -10,16 +10,16 @@
   </properties>
  
   <dependencies>
-	<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.moa/moa -->
-	<dependency>
-	    <groupId>nz.ac.waikato.cms.moa</groupId>
-	    <artifactId>moa</artifactId>
-	    <version>2021.07.0</version>
-	</dependency>
-	<dependency>
-        <groupId>com.github.waikato</groupId>
-        <artifactId>fcms-widgets</artifactId>
-        <version>0.0.21</version>
-      </dependency>
+ <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.moa/moa -->
+    <dependency>
+      <groupId>nz.ac.waikato.cms.moa</groupId>
+      <artifactId>moa</artifactId>
+      <version>2021.07.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.waikato</groupId>
+      <artifactId>fcms-widgets</artifactId>
+      <version>0.0.21</version>
+    </dependency>
   </dependencies>
 </project>
