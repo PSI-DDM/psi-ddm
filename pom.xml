@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.tcc</groupId>
+  <artifactId>psi-ddm</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
+ 
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.moa/moa -->
+	<dependency>
+	    <groupId>nz.ac.waikato.cms.moa</groupId>
+	    <artifactId>moa</artifactId>
+	    <version>2021.07.0</version>
+	</dependency>
+	<dependency>
+        <groupId>com.github.waikato</groupId>
+        <artifactId>fcms-widgets</artifactId>
+        <version>0.0.21</version>
+      </dependency>
+  </dependencies>
+</project>
